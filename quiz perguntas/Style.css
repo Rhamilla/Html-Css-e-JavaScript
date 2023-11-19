@@ -1,0 +1,10 @@
+/* Estilo base para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+/* Estilo para a caixa de entrada e botões */
+label, input, button {
+    margin-top: 10px;
+}

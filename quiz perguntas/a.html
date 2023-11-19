@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interatividade com Temperatura 0.6</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Consulte a Temperatura</h1>
+
+    <!-- Primeira Interação: Caixa de entrada para a temperatura -->
+    <label for="temperatureInput">Digite a temperatura (°C):</label>
+    <input type="number" id="temperatureInput" placeholder="Digite a temperatura">
+
+    <button onclick="checkTemperature()">Verificar Temperatura</button>
+
+    <p id="temperatureMessage"></p>
+
+    <!-- Segunda Interação: Botão para converter Fahrenheit para Celsius -->
+    <label for="fahrenheitInput">Digite a temperatura em Fahrenheit:</label>
+    <input type="number" id="fahrenheitInput" placeholder="Digite a temperatura em Fahrenheit">
+
+    <button onclick="convertToCelsius()">Converter para Celsius</button>
+
+    <p id="celsiusConversionMessage"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
